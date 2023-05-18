@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		412EE1E12A0A031600995C7B /* ANMetalHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412EE1E02A0A031600995C7B /* ANMetalHelper.swift */; };
+		412EE1E42A0A064600995C7B /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 412EE1E32A0A064600995C7B /* Shaders.metal */; };
+		412EE1E72A0A075F00995C7B /* ANCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412EE1E62A0A075F00995C7B /* ANCanvas.swift */; };
+		412EE1EA2A0A079F00995C7B /* ANShape2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412EE1E92A0A079F00995C7B /* ANShape2D.swift */; };
+		412EE1ED2A0A07E900995C7B /* ANModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412EE1EC2A0A07E900995C7B /* ANModels.swift */; };
+		412EE1EF2A0A088D00995C7B /* ANMetalSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412EE1EE2A0A088D00995C7B /* ANMetalSingleton.swift */; };
+		412EE1F12A0A09D400995C7B /* ANTriangle2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412EE1F02A0A09D400995C7B /* ANTriangle2D.swift */; };
+		412EE1F32A0AC34000995C7B /* ANSquare2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412EE1F22A0AC34000995C7B /* ANSquare2D.swift */; };
 		417B4FAB29EAC215001F5617 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417B4FAA29EAC215001F5617 /* AppDelegate.swift */; };
 		417B4FAD29EAC215001F5617 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417B4FAC29EAC215001F5617 /* SceneDelegate.swift */; };
 		417B4FAF29EAC215001F5617 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417B4FAE29EAC215001F5617 /* ViewController.swift */; };
 		417B4FB229EAC215001F5617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417B4FB029EAC215001F5617 /* Main.storyboard */; };
 		417B4FB429EAC216001F5617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417B4FB329EAC216001F5617 /* Assets.xcassets */; };
 		417B4FB729EAC216001F5617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417B4FB529EAC216001F5617 /* LaunchScreen.storyboard */; };
+		417B4FC02A09F484001F5617 /* Playa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417B4FBF2A09F484001F5617 /* Playa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		412EE1E02A0A031600995C7B /* ANMetalHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANMetalHelper.swift; sourceTree = "<group>"; };
+		412EE1E32A0A064600995C7B /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		412EE1E62A0A075F00995C7B /* ANCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANCanvas.swift; sourceTree = "<group>"; };
+		412EE1E92A0A079F00995C7B /* ANShape2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANShape2D.swift; sourceTree = "<group>"; };
+		412EE1EC2A0A07E900995C7B /* ANModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANModels.swift; sourceTree = "<group>"; };
+		412EE1EE2A0A088D00995C7B /* ANMetalSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANMetalSingleton.swift; sourceTree = "<group>"; };
+		412EE1F02A0A09D400995C7B /* ANTriangle2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANTriangle2D.swift; sourceTree = "<group>"; };
+		412EE1F22A0AC34000995C7B /* ANSquare2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANSquare2D.swift; sourceTree = "<group>"; };
 		417B4FA729EAC215001F5617 /* Ayna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ayna.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		417B4FAA29EAC215001F5617 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		417B4FAC29EAC215001F5617 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +41,7 @@
 		417B4FB329EAC216001F5617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		417B4FB629EAC216001F5617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		417B4FB829EAC216001F5617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417B4FBF2A09F484001F5617 /* Playa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playa.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		412EE1E22A0A062000995C7B /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				412EE1E32A0A064600995C7B /* Shaders.metal */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		412EE1E52A0A074300995C7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				412EE1E62A0A075F00995C7B /* ANCanvas.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		412EE1E82A0A078E00995C7B /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				412EE1E92A0A079F00995C7B /* ANShape2D.swift */,
+				412EE1F02A0A09D400995C7B /* ANTriangle2D.swift */,
+				412EE1F22A0AC34000995C7B /* ANSquare2D.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		412EE1EB2A0A07D800995C7B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				412EE1EC2A0A07E900995C7B /* ANModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		417B4F9E29EAC215001F5617 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +108,38 @@
 		417B4FA929EAC215001F5617 /* Ayna */ = {
 			isa = PBXGroup;
 			children = (
+				412EE1EB2A0A07D800995C7B /* Models */,
+				412EE1E82A0A078E00995C7B /* Shapes */,
+				412EE1E52A0A074300995C7B /* Views */,
+				412EE1E22A0A062000995C7B /* Shaders */,
+				417B4FC12A09F4A6001F5617 /* Helpers */,
+				417B4FBE2A09F461001F5617 /* View Controllers */,
 				417B4FAA29EAC215001F5617 /* AppDelegate.swift */,
 				417B4FAC29EAC215001F5617 /* SceneDelegate.swift */,
-				417B4FAE29EAC215001F5617 /* ViewController.swift */,
 				417B4FB029EAC215001F5617 /* Main.storyboard */,
 				417B4FB329EAC216001F5617 /* Assets.xcassets */,
 				417B4FB529EAC216001F5617 /* LaunchScreen.storyboard */,
 				417B4FB829EAC216001F5617 /* Info.plist */,
 			);
 			path = Ayna;
+			sourceTree = "<group>";
+		};
+		417B4FBE2A09F461001F5617 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				417B4FAE29EAC215001F5617 /* ViewController.swift */,
+				417B4FBF2A09F484001F5617 /* Playa.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		417B4FC12A09F4A6001F5617 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				412EE1E02A0A031600995C7B /* ANMetalHelper.swift */,
+				412EE1EE2A0A088D00995C7B /* ANMetalSingleton.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +213,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				412EE1EA2A0A079F00995C7B /* ANShape2D.swift in Sources */,
+				412EE1E72A0A075F00995C7B /* ANCanvas.swift in Sources */,
+				412EE1E42A0A064600995C7B /* Shaders.metal in Sources */,
 				417B4FAF29EAC215001F5617 /* ViewController.swift in Sources */,
+				412EE1F12A0A09D400995C7B /* ANTriangle2D.swift in Sources */,
+				412EE1F32A0AC34000995C7B /* ANSquare2D.swift in Sources */,
+				412EE1EF2A0A088D00995C7B /* ANMetalSingleton.swift in Sources */,
+				412EE1E12A0A031600995C7B /* ANMetalHelper.swift in Sources */,
+				417B4FC02A09F484001F5617 /* Playa.swift in Sources */,
+				412EE1ED2A0A07E900995C7B /* ANModels.swift in Sources */,
 				417B4FAB29EAC215001F5617 /* AppDelegate.swift in Sources */,
 				417B4FAD29EAC215001F5617 /* SceneDelegate.swift in Sources */,
 			);
@@ -295,6 +379,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +408,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
