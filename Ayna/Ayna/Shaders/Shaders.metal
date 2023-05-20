@@ -3,8 +3,6 @@
 //  Ayna
 //
 //  Created by Saumya Lahera on 5/8/23.
-//
-
 #include <metal_stdlib>
 using namespace metal;
 
@@ -26,7 +24,7 @@ struct SLNodeUniform {
     float time;
 };
 
-
+/*---------- SMOKE SHADER ----------*/
 float random (float2 _st) {
     return fract(sin(dot(_st.xy,
                          float2(12.9898,78.233)))*
@@ -96,6 +94,8 @@ float4 smoke(float2 st, float u_time) {
     
 }
 
+/*---------- SMOKE SHADER ENDS ----------*/
+
 vertex SLVertexOut vertexShader(const constant vector_float2 *vertexArray [[buffer(0)]], unsigned int vid [[vertex_id]], constant SLColor &constants [[buffer(1)]], device const float2 *textureCoords [[ buffer(2)]]){
     vector_float2 currentVertex = vertexArray[vid];
     SLVertexOut output;
@@ -109,6 +109,7 @@ vertex SLVertexOut vertexShader(const constant vector_float2 *vertexArray [[buff
 fragment vector_float4 fragmentShader(SLVertexOut interpolated [[stage_in]], constant SLNodeUniform &uniform [[ buffer(0)]]){
     float2 coords = interpolated.uv;
     coords-=float2(0.5);
+    interpolated.color = smoke(coords, uniform.time);
     return interpolated.color;
 }
 
